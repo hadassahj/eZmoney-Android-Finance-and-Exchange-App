@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/backgroundColor">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your situation"
+        android:textSize="24sp"
+        android:textColor="@color/primaryColor"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/start_service_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Motivation boost"
+        android:backgroundTint="@color/backgroundColor"
+        android:textColor="@color/primaryColor"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/stop_service_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop BG Sad Service"
+        android:backgroundTint="@color/backgroundColor"
+        android:textColor="@color/primaryColor"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/play_music_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Music"
+        android:backgroundTint="@color/backgroundColor"
+        android:textColor="@color/primaryColor"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/stop_music_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop Music"
+        android:backgroundTint="@color/backgroundColor"
+        android:textColor="@color/primaryColor" />
+
+</LinearLayout>
